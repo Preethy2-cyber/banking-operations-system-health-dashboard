@@ -1,0 +1,251 @@
+customer_id,first_name,last_name,date_of_birth,customer_segment,risk_profile,region,customer_since
+10001,Priya,Chen,1961-12-09,Retail,Low,Auckland,2024-08-03
+10002,Sophie,Roberts,1965-10-14,Retail,Low,Wellington,2022-09-01
+10003,Olivia,Anderson,1995-04-23,Retail,Low,Wellington,2022-01-14
+10004,Noah,Garcia,1960-03-23,Retail,Low,Wellington,2025-07-25
+10005,Hannah,Chen,1965-07-04,Retail,Low,Christchurch,2017-06-27
+10006,Sophie,Martin,1994-02-13,Retail,Low,Dunedin,2023-12-09
+10007,Henry,Singh,1972-12-03,Retail,Low,Christchurch,2017-11-23
+10008,Ella,Chen,1984-05-15,Retail,Low,Christchurch,2020-12-26
+10009,Daniel,Thompson,1977-12-22,Retail,Low,Wellington,2022-12-28
+10010,Sophie,Evans,1970-08-13,Retail,Medium,Dunedin,2023-04-01
+10011,Ella,Thompson,1980-01-08,Premium,Medium,Hamilton,2020-01-02
+10012,Amelia,Das,1996-12-11,Retail,Low,Dunedin,2022-02-23
+10013,Ben,Garcia,1968-04-24,Retail,Low,Tauranga,2021-10-21
+10014,Noah,Khan,1983-04-05,Retail,Low,Auckland,2018-03-26
+10015,Ben,Taylor,1970-11-14,Retail,Low,Tauranga,2022-04-02
+10016,Liam,Garcia,1995-01-22,Premium,Medium,Tauranga,2025-06-03
+10017,Ethan,Young,2001-06-04,Retail,Low,Auckland,2025-02-05
+10018,Sophie,Garcia,1992-03-17,Small Business,Medium,Christchurch,2024-03-02
+10019,Liam,Smith,1972-03-12,Premium,Low,Palmerston North,2022-12-13
+10020,Aarav,Smith,1980-08-01,Retail,Low,Palmerston North,2020-06-13
+10021,Ella,Brown,1975-10-03,Retail,Low,Auckland,2025-07-13
+10022,Mia,Young,1968-03-22,Retail,Low,Christchurch,2022-12-02
+10023,Olivia,Lee,1973-09-25,Premium,Low,Christchurch,2021-06-23
+10024,Riya,Taylor,1983-08-17,Retail,Low,Auckland,2020-10-16
+10025,Aarav,Singh,1995-04-19,Retail,Low,Dunedin,2017-08-30
+10026,Ella,Campbell,1962-06-03,Retail,Low,Hamilton,2019-05-28
+10027,Mia,Carter,1996-10-16,Retail,Low,Hamilton,2019-02-19
+10028,Arjun,Chen,2002-07-12,Retail,Low,Dunedin,2017-08-10
+10029,Riya,Taylor,2001-02-02,Retail,Low,Palmerston North,2018-03-24
+10030,Ella,Das,1972-09-15,Retail,Low,Hamilton,2019-10-21
+10031,Amelia,Martin,1995-02-02,Retail,Low,Auckland,2018-01-18
+10032,Thomas,Evans,1970-07-16,Retail,Medium,Auckland,2018-11-06
+10033,Isla,Anderson,1984-05-26,Premium,Low,Dunedin,2025-03-12
+10034,William,Roberts,2002-12-16,Retail,Low,Auckland,2023-07-01
+10035,Sophie,Roberts,1963-12-11,Retail,Low,Tauranga,2022-12-16
+10036,Charlotte,Brown,1992-02-28,Retail,Low,Dunedin,2019-08-22
+10037,Isla,Chen,1996-04-19,Retail,Low,Hamilton,2024-05-16
+10038,Noah,Singh,1993-06-09,Retail,Medium,Wellington,2019-12-24
+10039,Isla,Carter,2002-11-10,Retail,Medium,Auckland,2017-02-08
+10040,James,Smith,1996-02-03,Retail,Low,Wellington,2020-11-30
+10041,Amelia,Evans,1983-05-06,Retail,Low,Christchurch,2023-11-11
+10042,William,Taylor,1993-01-22,Premium,Low,Dunedin,2018-03-01
+10043,Ben,Garcia,1967-02-24,Retail,Low,Tauranga,2019-05-13
+10044,Sam,Johnson,1973-11-21,Premium,Low,Christchurch,2017-07-28
+10045,Amelia,Taylor,1987-05-02,Retail,Medium,Dunedin,2019-12-09
+10046,Charlotte,Wilson,1988-09-23,Retail,Low,Auckland,2024-10-01
+10047,Ben,Roberts,1962-06-19,Retail,Low,Auckland,2020-06-16
+10048,Henry,Brown,1982-04-22,Retail,Low,Palmerston North,2023-04-13
+10049,Jack,Smith,1969-04-28,Retail,Medium,Wellington,2021-08-16
+10050,Aarav,Collins,1981-07-26,Retail,Medium,Wellington,2019-12-29
+10051,Charlotte,Walker,1966-07-28,Retail,Low,Wellington,2022-03-01
+10052,Henry,Harris,1974-04-01,Retail,Low,Christchurch,2017-10-12
+10053,Thomas,Garcia,1982-11-17,Retail,High,Tauranga,2020-09-18
+10054,Aarav,Chen,1976-03-19,Small Business,Low,Auckland,2023-09-10
+10055,Jack,Kaur,1980-07-20,Small Business,Low,Tauranga,2019-02-18
+10056,Ethan,Brown,1987-01-17,Small Business,Low,Dunedin,2025-04-28
+10057,Sophie,Thompson,1972-06-14,Retail,Medium,Christchurch,2023-12-28
+10058,Hannah,Thompson,1967-12-10,Retail,Medium,Christchurch,2021-07-07
+10059,Sam,Harris,1995-03-07,Retail,High,Dunedin,2025-05-23
+10060,Charlotte,Smith,1996-05-13,Retail,Low,Christchurch,2019-05-11
+10061,Jack,Singh,1998-11-11,Retail,Low,Wellington,2022-09-25
+10062,Leo,Wilson,1970-11-03,Retail,Medium,Tauranga,2020-10-04
+10063,Amelia,Young,1975-11-10,Retail,Low,Auckland,2017-07-09
+10064,Ella,Miller,1999-02-15,Retail,Low,Wellington,2025-01-21
+10065,Sam,Khan,1991-07-08,Retail,Medium,Palmerston North,2025-08-21
+10066,Arjun,Young,1987-04-06,Premium,Medium,Hamilton,2017-07-25
+10067,Mia,Evans,1967-08-05,Premium,Medium,Tauranga,2023-09-05
+10068,Hannah,Young,1988-10-27,Premium,Low,Palmerston North,2023-02-23
+10069,James,Collins,1990-08-09,Premium,Medium,Christchurch,2025-08-03
+10070,Thomas,Patel,1991-11-08,Retail,Low,Christchurch,2019-08-19
+10071,Ethan,Johnson,1980-09-03,Retail,Low,Dunedin,2018-09-18
+10072,Sam,Das,1964-07-14,Retail,Low,Auckland,2019-04-28
+10073,Zoe,Lee,1984-10-23,Retail,Medium,Tauranga,2021-04-08
+10074,Leo,Anderson,1982-05-25,Retail,Medium,Palmerston North,2021-09-13
+10075,Mia,Wilson,1994-10-08,Retail,Low,Hamilton,2017-04-29
+10076,Isla,Johnson,2002-11-26,Retail,Low,Hamilton,2018-06-07
+10077,Olivia,Roberts,1961-07-19,Retail,Low,Dunedin,2021-10-22
+10078,Ben,Martin,1971-01-09,Retail,Low,Christchurch,2020-10-14
+10079,Thomas,Khan,1977-07-09,Premium,Low,Dunedin,2023-01-19
+10080,Aisha,Kaur,1974-11-03,Premium,Medium,Palmerston North,2017-05-08
+10081,Ella,Das,1961-10-05,Retail,Low,Auckland,2023-04-30
+10082,Daniel,Martin,1976-06-06,Retail,High,Dunedin,2018-04-15
+10083,Thomas,Collins,1979-02-19,Retail,Low,Dunedin,2021-03-18
+10084,Isla,Walker,1972-02-19,Retail,Low,Auckland,2024-10-26
+10085,Thomas,Harris,2003-10-26,Retail,High,Palmerston North,2017-06-18
+10086,Henry,Roberts,1987-11-12,Retail,Low,Auckland,2021-09-17
+10087,Zoe,Miller,1966-07-12,Retail,Medium,Dunedin,2018-09-19
+10088,Jack,Collins,1993-11-09,Retail,Medium,Palmerston North,2022-06-04
+10089,James,Lee,1997-05-11,Premium,Medium,Auckland,2020-02-17
+10090,James,Evans,1989-10-20,Retail,Low,Hamilton,2020-08-24
+10091,Charlotte,Miller,1973-06-26,Retail,Low,Tauranga,2024-11-12
+10092,Ethan,Roberts,1960-09-07,Retail,Medium,Hamilton,2023-03-25
+10093,Thomas,Evans,1990-11-23,Retail,Medium,Auckland,2020-04-20
+10094,Ella,Khan,1975-05-22,Retail,Low,Tauranga,2020-11-09
+10095,Jack,Wilson,1995-06-12,Premium,Low,Christchurch,2019-08-03
+10096,Arjun,Wilson,1972-06-04,Premium,High,Dunedin,2019-01-29
+10097,Daniel,Das,1990-05-24,Retail,Medium,Tauranga,2020-03-05
+10098,Arjun,Das,1978-04-12,Retail,Low,Tauranga,2018-06-03
+10099,Ethan,Brown,1963-09-10,Retail,Low,Palmerston North,2025-06-11
+10100,Leo,Chen,1960-10-10,Retail,Low,Wellington,2017-07-30
+10101,Ethan,Miller,1967-02-13,Retail,Low,Dunedin,2017-08-08
+10102,Ben,Carter,1996-05-03,Small Business,Low,Palmerston North,2021-09-01
+10103,Olivia,Smith,1999-04-25,Retail,Low,Hamilton,2020-05-02
+10104,Noah,Lee,1979-10-20,Retail,High,Auckland,2025-07-22
+10105,Daniel,Taylor,1973-05-22,Retail,Low,Tauranga,2017-11-04
+10106,Charlotte,Anderson,1986-08-23,Retail,Low,Wellington,2020-03-26
+10107,Sam,Harris,1989-02-22,Retail,Low,Palmerston North,2024-01-05
+10108,Noah,Thompson,1972-07-04,Retail,Low,Christchurch,2018-08-06
+10109,Amelia,Brown,1970-05-20,Premium,Low,Christchurch,2021-12-04
+10110,Arjun,Martin,1979-12-13,Small Business,Low,Hamilton,2021-11-29
+10111,Amelia,Smith,1962-07-24,Retail,Low,Auckland,2019-07-27
+10112,Riya,Singh,1997-01-25,Retail,Low,Auckland,2025-07-23
+10113,Thomas,Collins,1990-09-21,Retail,Low,Tauranga,2021-11-21
+10114,Priya,Miller,1965-08-12,Retail,Low,Auckland,2018-10-21
+10115,Hannah,Lee,1991-05-22,Small Business,Medium,Tauranga,2017-05-31
+10116,James,Campbell,1980-05-11,Retail,Medium,Palmerston North,2022-10-09
+10117,Zoe,Anderson,2002-09-15,Retail,Low,Christchurch,2023-12-26
+10118,Thomas,Miller,2000-08-25,Retail,Low,Wellington,2020-03-25
+10119,James,Walker,1991-02-01,Small Business,Low,Wellington,2024-12-17
+10120,Charlotte,Harris,1995-01-18,Retail,Low,Palmerston North,2018-04-10
+10121,James,Chen,2001-03-16,Small Business,Low,Dunedin,2020-01-25
+10122,Jack,Miller,1990-04-15,Retail,Low,Tauranga,2022-09-13
+10123,Sophie,Carter,1964-05-25,Premium,Low,Palmerston North,2022-09-11
+10124,Ethan,Anderson,1978-12-10,Premium,Low,Dunedin,2022-06-29
+10125,Ben,Martin,1994-08-12,Retail,Medium,Hamilton,2022-02-09
+10126,Hannah,Das,1975-10-13,Retail,Medium,Auckland,2020-07-27
+10127,Sophie,Miller,1984-07-22,Premium,Medium,Wellington,2022-07-22
+10128,Aisha,Carter,1992-10-11,Premium,Medium,Hamilton,2018-02-13
+10129,Liam,Martin,1960-12-05,Retail,Medium,Wellington,2017-11-03
+10130,Leo,Garcia,1981-10-23,Retail,Low,Christchurch,2024-07-25
+10131,Mia,Khan,1980-11-23,Premium,Low,Tauranga,2017-05-28
+10132,Olivia,Campbell,1975-11-22,Small Business,High,Dunedin,2018-01-06
+10133,Jack,Chen,2000-12-28,Retail,Low,Christchurch,2017-04-29
+10134,Aisha,Johnson,1963-05-12,Retail,Low,Tauranga,2021-08-15
+10135,Noah,Thompson,1971-03-06,Retail,Medium,Tauranga,2024-08-30
+10136,Ella,Miller,1997-03-08,Retail,Low,Christchurch,2024-06-24
+10137,Aarav,Martin,1978-11-18,Retail,Low,Christchurch,2023-08-04
+10138,Grace,Taylor,1987-12-09,Retail,Low,Hamilton,2022-06-03
+10139,Arjun,Evans,1984-10-12,Retail,High,Christchurch,2017-03-31
+10140,Zoe,Thompson,1985-05-01,Retail,Medium,Dunedin,2017-07-20
+10141,Olivia,Wilson,1991-05-25,Premium,Low,Christchurch,2019-06-17
+10142,Priya,Das,1999-05-22,Premium,Medium,Dunedin,2018-07-15
+10143,Priya,Chen,2000-11-02,Retail,Low,Tauranga,2021-02-03
+10144,Sophie,Carter,1965-05-11,Premium,Low,Wellington,2025-10-27
+10145,Mia,Kaur,1993-09-09,Premium,Low,Palmerston North,2022-05-28
+10146,William,Harris,1981-02-15,Small Business,Low,Wellington,2024-08-02
+10147,Sophie,Thompson,1985-09-12,Retail,Low,Christchurch,2023-01-07
+10148,Arjun,Martin,1983-11-24,Retail,Low,Palmerston North,2024-02-29
+10149,Henry,Chen,2003-04-16,Retail,Medium,Tauranga,2020-09-05
+10150,Olivia,Evans,2001-02-21,Premium,Medium,Christchurch,2024-04-13
+10151,Jack,Chen,1968-01-02,Retail,Low,Auckland,2019-08-20
+10152,Mia,Carter,1984-08-12,Retail,Medium,Tauranga,2021-09-13
+10153,Noah,Wilson,1969-07-21,Retail,Low,Hamilton,2020-02-20
+10154,Aisha,Walker,1983-04-15,Retail,Low,Christchurch,2018-02-11
+10155,Riya,Kaur,1994-11-12,Retail,Low,Auckland,2022-02-06
+10156,Amelia,Thompson,1973-11-21,Retail,Low,Palmerston North,2020-09-28
+10157,Ella,Carter,1996-04-03,Premium,Low,Tauranga,2019-06-04
+10158,Zoe,Evans,1981-03-26,Small Business,Low,Palmerston North,2018-08-16
+10159,Ben,Roberts,1976-03-04,Retail,Low,Auckland,2021-01-07
+10160,William,Evans,1997-06-01,Retail,Low,Dunedin,2021-09-21
+10161,Liam,Chen,1964-08-15,Premium,Low,Auckland,2022-01-26
+10162,Liam,Evans,1999-01-24,Premium,Medium,Tauranga,2020-05-20
+10163,James,Taylor,1961-01-16,Premium,Low,Auckland,2022-07-02
+10164,Sam,Martin,1964-02-11,Retail,Low,Christchurch,2024-01-02
+10165,Priya,Singh,1995-12-11,Retail,Low,Christchurch,2022-02-02
+10166,Liam,Smith,1987-02-26,Premium,Medium,Dunedin,2025-08-16
+10167,Mia,Wilson,1973-07-15,Premium,Low,Palmerston North,2022-02-01
+10168,Isla,Lee,1966-06-14,Retail,Low,Wellington,2024-09-14
+10169,Leo,Campbell,1965-02-03,Retail,Medium,Christchurch,2018-06-17
+10170,Mia,Brown,1997-09-18,Retail,Low,Christchurch,2024-06-18
+10171,Thomas,Lee,1963-05-20,Retail,Low,Tauranga,2019-05-22
+10172,Ben,Thompson,1990-04-28,Retail,Medium,Christchurch,2018-04-16
+10173,Thomas,Garcia,1996-04-26,Retail,Low,Palmerston North,2023-12-22
+10174,Olivia,Thompson,2001-09-01,Retail,Medium,Dunedin,2020-01-01
+10175,Aarav,Collins,1977-12-25,Retail,Low,Auckland,2019-01-14
+10176,Ben,Singh,2002-07-03,Retail,Low,Auckland,2018-01-11
+10177,Sophie,Patel,1973-07-14,Retail,Low,Christchurch,2025-02-03
+10178,Hannah,Young,1996-10-03,Premium,Low,Palmerston North,2023-12-06
+10179,Aisha,Thompson,1965-05-15,Retail,Low,Hamilton,2021-08-24
+10180,Ethan,Das,1992-02-12,Retail,Low,Dunedin,2023-08-27
+10181,Leo,Patel,2002-05-02,Retail,High,Auckland,2017-02-01
+10182,Daniel,Harris,1973-03-25,Retail,Low,Auckland,2022-07-31
+10183,Sophie,Lee,1971-03-13,Retail,Low,Tauranga,2024-06-29
+10184,William,Kaur,1964-07-28,Premium,Low,Hamilton,2017-11-15
+10185,Hannah,Singh,1987-10-13,Premium,Low,Auckland,2021-07-18
+10186,Aarav,Johnson,1970-10-15,Premium,Medium,Auckland,2021-11-24
+10187,Arjun,Evans,1987-10-13,Retail,Low,Christchurch,2025-05-13
+10188,Hannah,Evans,1981-03-03,Retail,Low,Tauranga,2019-03-06
+10189,Thomas,Kaur,1982-12-27,Retail,Low,Auckland,2018-08-23
+10190,Ethan,Das,1971-10-05,Premium,Medium,Wellington,2025-09-01
+10191,Priya,Miller,1989-10-25,Retail,Medium,Tauranga,2024-03-18
+10192,Priya,Smith,1980-11-11,Retail,Low,Hamilton,2024-01-31
+10193,Grace,Garcia,1997-01-12,Retail,Low,Hamilton,2017-06-04
+10194,Aisha,Kaur,1978-02-21,Premium,Medium,Tauranga,2023-08-31
+10195,Liam,Khan,1989-10-18,Small Business,Medium,Auckland,2022-01-17
+10196,William,Singh,2001-04-11,Retail,Low,Auckland,2022-01-20
+10197,Arjun,Johnson,1965-09-21,Retail,Low,Hamilton,2021-12-05
+10198,Liam,Patel,1999-03-12,Retail,Low,Hamilton,2025-09-08
+10199,Hannah,Thompson,1998-01-26,Retail,Low,Christchurch,2018-01-23
+10200,Mia,Thompson,1984-05-09,Premium,Medium,Tauranga,2018-09-08
+10201,Hannah,Campbell,1997-11-05,Small Business,Low,Dunedin,2024-10-31
+10202,Riya,Khan,1968-10-23,Small Business,Low,Hamilton,2024-03-20
+10203,William,Johnson,1968-11-23,Premium,Medium,Dunedin,2022-11-27
+10204,Amelia,Taylor,2002-07-17,Retail,Low,Wellington,2019-05-28
+10205,Hannah,Young,1991-04-08,Small Business,Low,Christchurch,2025-11-03
+10206,Arjun,Patel,1994-12-17,Retail,Low,Palmerston North,2023-12-07
+10207,Ben,Smith,1984-03-06,Retail,Medium,Tauranga,2018-11-10
+10208,Sophie,Martin,1962-07-12,Retail,Low,Hamilton,2023-11-06
+10209,Grace,Young,1988-04-18,Retail,High,Palmerston North,2022-04-06
+10210,Zoe,Das,1983-11-19,Small Business,Low,Christchurch,2025-09-23
+10211,Isla,Patel,1993-07-06,Premium,Medium,Wellington,2019-10-22
+10212,Aisha,Taylor,1990-06-18,Small Business,Medium,Tauranga,2018-05-26
+10213,Grace,Campbell,1970-05-15,Small Business,Low,Hamilton,2018-01-11
+10214,Ella,Martin,1982-01-14,Retail,Low,Wellington,2021-05-01
+10215,Amelia,Kaur,1974-01-11,Small Business,Medium,Dunedin,2020-10-05
+10216,William,Carter,1968-01-10,Small Business,Low,Palmerston North,2018-07-23
+10217,Thomas,Walker,1990-08-20,Retail,Low,Christchurch,2019-06-03
+10218,Zoe,Carter,1995-12-20,Retail,Low,Christchurch,2019-09-01
+10219,Grace,Chen,1963-04-14,Retail,Low,Auckland,2018-03-31
+10220,Zoe,Miller,1998-09-01,Retail,Low,Dunedin,2018-08-12
+10221,Grace,Lee,1960-10-12,Retail,Low,Dunedin,2024-06-30
+10222,Amelia,Patel,1983-02-17,Retail,Medium,Tauranga,2023-03-20
+10223,Aarav,Khan,1990-01-21,Retail,Low,Dunedin,2017-03-08
+10224,Henry,Campbell,1982-04-24,Retail,Low,Tauranga,2025-03-31
+10225,Thomas,Johnson,1968-01-12,Retail,Medium,Wellington,2025-09-27
+10226,Riya,Martin,1990-11-06,Premium,Low,Palmerston North,2022-02-18
+10227,Aisha,Harris,1972-01-26,Retail,Low,Christchurch,2022-10-13
+10228,Isla,Roberts,1990-05-02,Premium,Low,Christchurch,2025-10-04
+10229,Aisha,Taylor,1981-05-04,Premium,Low,Hamilton,2025-05-03
+10230,James,Khan,1981-03-16,Retail,Low,Palmerston North,2022-10-28
+10231,Ethan,Campbell,1987-02-14,Retail,Medium,Tauranga,2020-04-18
+10232,Hannah,Chen,1965-06-22,Retail,Low,Dunedin,2021-10-12
+10233,Charlotte,Walker,1988-06-15,Retail,Medium,Christchurch,2023-11-24
+10234,Jack,Garcia,2000-01-03,Retail,Low,Tauranga,2025-12-26
+10235,Sophie,Thompson,1970-01-05,Premium,Medium,Hamilton,2017-05-23
+10236,Ben,Campbell,1975-11-12,Retail,High,Auckland,2023-10-15
+10237,Ben,Thompson,1988-06-12,Retail,Low,Wellington,2022-12-09
+10238,Henry,Khan,1980-11-09,Retail,Low,Dunedin,2019-02-02
+10239,Leo,Patel,1984-09-04,Retail,Low,Hamilton,2019-05-29
+10240,Olivia,Harris,1991-04-04,Retail,Low,Wellington,2024-12-31
+10241,James,Campbell,2003-06-22,Retail,Low,Tauranga,2020-04-04
+10242,Grace,Collins,2000-03-26,Retail,Low,Wellington,2025-11-19
+10243,Ben,Evans,1991-01-12,Retail,Low,Palmerston North,2023-03-10
+10244,Ben,Smith,1965-02-10,Retail,Medium,Hamilton,2022-11-24
+10245,Jack,Young,1986-10-03,Retail,Low,Auckland,2022-01-18
+10246,James,Thompson,1993-06-05,Premium,Medium,Dunedin,2023-08-05
+10247,Charlotte,Young,1968-07-17,Small Business,Low,Auckland,2022-10-24
+10248,Ben,Harris,1970-03-11,Small Business,Low,Tauranga,2020-03-09
+10249,Amelia,Garcia,1972-11-18,Retail,Low,Tauranga,2022-12-26
+10250,Amelia,Patel,2001-03-19,Small Business,Low,Dunedin,2024-01-02

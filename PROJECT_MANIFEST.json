@@ -1,0 +1,12 @@
+{
+  "project": "Banking Operations & System Health Dashboard",
+  "generated": "2026-09-21",
+  "records": {
+    "customers": 250,
+    "accounts": 320,
+    "loans": 180,
+    "payments": 5400,
+    "transactions": 24033
+  },
+  "files": 32
+}

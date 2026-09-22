@@ -1,0 +1,10 @@
+flowchart LR
+A[Banking Data] --> B[(SQL Database)] --> C[Python Validation]
+C --> D[Risk Detection & Scoring] --> E[(Risk Alert Queue)]
+E --> F[Operations Workflow] --> G[(Escalation Records)]
+B --> H[Power BI Model]
+E --> H
+G --> H
+H --> I[Executive Risk Dashboard]
+H --> J[System Health Dashboard]
+H --> K[Interest Rate What-If]

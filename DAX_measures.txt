@@ -1,0 +1,18 @@
+Total Customers = DISTINCTCOUNT(DimCustomer[customer_id])
+Total Loans = DISTINCTCOUNT(FactLoan[loan_id])
+Outstanding Loan Exposure = SUM(FactLoan[outstanding_balance])
+High Risk Alerts = CALCULATE(DISTINCTCOUNT(FactAlert[alert_id]), FactAlert[severity]="High")
+Open Alerts = CALCULATE(DISTINCTCOUNT(FactAlert[alert_id]), FactAlert[status]<>"Resolved")
+Average Resolution Time (hrs) = AVERAGE(FactEscalation[resolution_time_hours])
+SLA Breaches = CALCULATE(DISTINCTCOUNT(FactEscalation[escalation_id]), FactEscalation[resolution_time_hours]>24)
+Missed Payments = CALCULATE(COUNTROWS(FactPayment), FactPayment[payment_status]="Missed")
+International Transactions = CALCULATE(COUNTROWS(FactTransaction), FactTransaction[country]<>"New Zealand")
+Interest Rate Adjustment = SELECTEDVALUE('Interest Rate Parameter'[Rate Adjustment],0)
+Scenario Rate = AVERAGE(FactLoan[interest_rate]) + [Interest Rate Adjustment]
+Current Monthly Repayment = SUM(FactLoan[monthly_repayment])
+Scenario Monthly Repayment =
+VAR NewRate=[Scenario Rate]/100/12
+VAR Months=60
+RETURN SUMX(FactLoan,VAR Balance=FactLoan[outstanding_balance]
+RETURN IF(NewRate=0,Balance/Months,Balance*NewRate*POWER(1+NewRate,Months)/(POWER(1+NewRate,Months)-1)))
+Estimated Monthly Increase = [Scenario Monthly Repayment]-[Current Monthly Repayment]

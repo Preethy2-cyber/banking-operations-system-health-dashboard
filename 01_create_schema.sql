@@ -1,0 +1,21 @@
+
+PRAGMA foreign_keys=ON;
+DROP TABLE IF EXISTS escalations;
+DROP TABLE IF EXISTS risk_alerts;
+DROP TABLE IF EXISTS transactions;
+DROP TABLE IF EXISTS payments;
+DROP TABLE IF EXISTS loans;
+DROP TABLE IF EXISTS accounts;
+DROP TABLE IF EXISTS customers;
+CREATE TABLE customers(customer_id INTEGER PRIMARY KEY,first_name TEXT,last_name TEXT,date_of_birth DATE,customer_segment TEXT,risk_profile TEXT,region TEXT,customer_since DATE);
+CREATE TABLE accounts(account_id INTEGER PRIMARY KEY,customer_id INTEGER NOT NULL,account_type TEXT,opening_date DATE,current_balance REAL,credit_limit REAL,account_status TEXT,FOREIGN KEY(customer_id) REFERENCES customers(customer_id));
+CREATE TABLE loans(loan_id INTEGER PRIMARY KEY,customer_id INTEGER NOT NULL,loan_type TEXT,principal_amount REAL,outstanding_balance REAL,interest_rate REAL,monthly_repayment REAL,loan_status TEXT,FOREIGN KEY(customer_id) REFERENCES customers(customer_id));
+CREATE TABLE payments(payment_id INTEGER PRIMARY KEY,loan_id INTEGER NOT NULL,payment_date DATE,amount_due REAL,amount_paid REAL,payment_status TEXT,days_overdue INTEGER,FOREIGN KEY(loan_id) REFERENCES loans(loan_id));
+CREATE TABLE transactions(transaction_id INTEGER PRIMARY KEY,account_id INTEGER NOT NULL,transaction_date DATE,transaction_type TEXT,amount REAL,merchant_category TEXT,country TEXT,channel TEXT,FOREIGN KEY(account_id) REFERENCES accounts(account_id));
+CREATE TABLE risk_alerts(alert_id INTEGER PRIMARY KEY,customer_id INTEGER NOT NULL,account_id INTEGER,alert_type TEXT,risk_score INTEGER,severity TEXT,detected_date DATE,status TEXT,assigned_team TEXT,FOREIGN KEY(customer_id) REFERENCES customers(customer_id));
+CREATE TABLE escalations(escalation_id INTEGER PRIMARY KEY,alert_id INTEGER NOT NULL,created_at TEXT,validation_started TEXT,validation_completed TEXT,resolution_time_hours REAL,escalation_status TEXT,resolution_reason TEXT,FOREIGN KEY(alert_id) REFERENCES risk_alerts(alert_id));
+CREATE INDEX idx_accounts_customer ON accounts(customer_id);
+CREATE INDEX idx_loans_customer ON loans(customer_id);
+CREATE INDEX idx_payments_loan ON payments(loan_id);
+CREATE INDEX idx_transactions_account ON transactions(account_id);
+CREATE INDEX idx_transactions_date ON transactions(transaction_date);

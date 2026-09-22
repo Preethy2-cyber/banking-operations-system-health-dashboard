@@ -1,0 +1,16 @@
+flowchart TD
+A[Daily Data Load] --> B{Data Quality Checks}
+B -->|Fail| C[Validation Exception]
+B -->|Pass| D[Calculate Risk Indicators]
+D --> E{Risk Threshold}
+E -->|Low| F[Monitor]
+E -->|Medium| G[Create Alert]
+E -->|High| H[Priority Alert]
+G --> I[Escalation Queue]
+H --> I
+I --> J[Analyst Validation]
+J --> K{Confirmed?}
+K -->|No| L[Close]
+K -->|Yes| M[Investigate] --> N[Resolve] --> O[Dashboard Refresh]
+F --> O
+L --> O
